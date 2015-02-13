@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start",
+    "test": "./bower_components/mocha/mocha start",
     "test-once": "npm run test -- --single-run"
   },
   "repository": {
