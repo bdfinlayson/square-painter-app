@@ -6,3 +6,9 @@ describe('test suite', function() {
     false.should.be.false;
   });
 });
+
+describe('should return world', function() {
+  it('should return world', function() {
+    hello().should.equal('world');
+  })
+})
