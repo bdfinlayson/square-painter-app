@@ -1,0 +1,20 @@
+{
+  "name": "square-painter-app",
+  "version": "0.0.0",
+  "homepage": "https://github.com/bdfinlayson/square-painter-app",
+  "authors": [
+    "Bryan Finlayson <bdfinlayson@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "mocha": "~2.1.0",
+    "chai": "~2.0.0"
+  }
+}
