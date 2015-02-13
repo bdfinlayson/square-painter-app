@@ -12,3 +12,9 @@ describe('should return world', function() {
     hello().should.equal('world');
   })
 })
+
+describe('should add up', function() {
+  it('should return 4', function() {
+    addUp(2).should.equal(4);
+  })
+})
