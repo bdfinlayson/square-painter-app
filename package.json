@@ -1,0 +1,22 @@
+{
+  "name": "square-painter-app",
+  "version": "1.0.0",
+  "description": "Uses jquery selectors and click event listeners to paint squares colors of user's choosing",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bdfinlayson/square-painter-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdfinlayson/square-painter-app/issues"
+  },
+  "homepage": "https://github.com/bdfinlayson/square-painter-app"
+}
