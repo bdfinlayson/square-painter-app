@@ -14,14 +14,13 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'bower_components/jquery/dist/jquery.min.js',
-      'public/js/**/*.js',
+      'public/vendor/**/*.js',
       'test/spec/**/*.test.js',
-      'bower_components/jquery/dist/jquery.min.js',
+      'public/js/**/*.js'
     ],
 
 
-    // list of files to exclude stuff
+    // list of files to exclude
     exclude: [
     ],
 
@@ -30,20 +29,17 @@ module.exports = function(config) {
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
       'public/js/**/*.js': ['coverage']
-
     },
 
-    // optionally, configure the reporter
     coverageReporter: {
       type : 'lcov',
       dir : 'coverage/'
     },
 
-
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress'],
+    reporters: ['progress', 'coverage', 'coveralls'],
 
 
     // web server port
@@ -65,7 +61,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Firefox'],
+    browsers: ['PhantomJS', 'Firefox'],
 
 
     // Continuous Integration mode
